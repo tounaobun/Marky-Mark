@@ -15,6 +15,7 @@ class MarkDownToInlineAttributedStringConverterConfiguration: MarkDownConverterC
         addLayoutBlockBuilder(InlineTextAttributedStringBlockBuilder())
         addLayoutBlockBuilder(BoldAttributedStringBlockBuilder())
         addLayoutBlockBuilder(StrikeThroughAttributedStringBlockBuilder())
+        addLayoutBlockBuilder(UnderlineAttributedStringBlockBuilder())
         addLayoutBlockBuilder(ItalicAttributedStringBlockBuilder())
         addLayoutBlockBuilder(InlineImageAttributedStringBlockBuilder())
         addLayoutBlockBuilder(LinkViewLayoutBlockBuilder())

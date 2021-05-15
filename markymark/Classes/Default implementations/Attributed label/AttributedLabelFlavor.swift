@@ -16,6 +16,7 @@ open class AttributedLabelFlavor: Flavor {
         ItalicRule(),
         BoldRule(),
         StrikeRule(),
+        UnderlineRule(),
         LinkRule()
     ]
 

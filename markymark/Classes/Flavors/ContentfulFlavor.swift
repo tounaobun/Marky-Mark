@@ -26,6 +26,7 @@ open class ContentfulFlavor: Flavor {
         BoldRule(),
         ItalicRule(),
         StrikeRule(),
+        UnderlineRule(),
         ImageRule(),
         InlineCodeRule()
     ]

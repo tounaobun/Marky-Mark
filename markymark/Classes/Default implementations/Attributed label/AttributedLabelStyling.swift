@@ -14,8 +14,9 @@ open class AttributedLabelStyling: Styling {
     public var boldStyling = BoldStyling()
     public var linkStyling = LinkStyling()
     public var strikeThroughStyling = StrikeThroughStyling()
-
+    public var underlineStyling = UnderlineStyling()
+    
     public var itemStylingRules: [ItemStyling] {
-        return [paragraphStyling, italicStyling, boldStyling, linkStyling, strikeThroughStyling]
+        return [paragraphStyling, italicStyling, boldStyling, linkStyling, strikeThroughStyling, underlineStyling]
     }
 }

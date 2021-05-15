@@ -14,6 +14,7 @@ open class DefaultStyling: Styling {
     public var boldStyling = BoldStyling()
     public var headingStyling = HeadingStyling()
     public var strikeThroughStyling = StrikeThroughStyling()
+    public var underlineStyling = UnderlineStyling()
     public var listStyling = ListStyling()
     public var imageStyling = ImageStyling()
     public var linkStyling = LinkStyling()
@@ -29,6 +30,7 @@ open class DefaultStyling: Styling {
             boldStyling,
             headingStyling,
             strikeThroughStyling,
+            underlineStyling,
             listStyling,
             imageStyling,
             linkStyling,
